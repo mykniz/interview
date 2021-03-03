@@ -1,9 +1,8 @@
-import java.nio.charset.StandardCharsets;
-
 public class CalculateAndPrint {
     public static void main(String[] args) {
 
-        calculateAndPrint(1211);
+        int n = 1221;
+        calculateAndPrint(n);
 
     }
 

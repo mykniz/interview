@@ -1,4 +1,5 @@
 public class Fibonacci {
+
     public static void main(String[] args) {
 
         printFibonacci(2^64);
@@ -18,7 +19,6 @@ public class Fibonacci {
 //        }
 //        System.out.println(x);
 //------------------------------------------------//
-
 
         long f_0 = 0;
         long f_1 = 1;
