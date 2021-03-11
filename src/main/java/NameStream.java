@@ -102,12 +102,13 @@ public class NameStream {
         Map<String, Double> actual = workers.stream()
                 .collect(Collectors.groupingBy(Worker::getPosition,Collectors.averagingDouble(Worker::getSalary)));
         System.out.println(actual);
+
     }
 
 }
 
 
-//**************************************************************************************************//
+//*****************************************************************************************************//
 interface Organization {
 
     int getId();
