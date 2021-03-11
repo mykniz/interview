@@ -1,6 +1,6 @@
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Test {
+public class ReentrantLockExample {
     public static void main(String[] args) {
         CommonResource commonResource = new CommonResource();
         ReentrantLock reentrantLock = new ReentrantLock();
