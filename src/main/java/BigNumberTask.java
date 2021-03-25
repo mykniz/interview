@@ -2,10 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BigNumberTask {
+
     public static void main(String[] args) {
 
-        String bigA = "10000000000000000000000000000000000000000000000001";
-        String bigB = "-10000000000000000000000000000000000000000000000000";
+        String bigA = "1000000000000000000000000000000000000000000000000000000001";
+        String bigB = "-1000000000000000000000000000000000000000000000000000000000";
 
         BigNumber bigNumberA = new MyBigNumber(bigA);
         BigNumber bigNumberB = new MyBigNumber(bigB);
