@@ -1,7 +1,7 @@
 
 # README file
 
-some text for this updated readme file
+This is a practice part of Stepik Java interview course
 
 #Subheader
 
